@@ -1,6 +1,24 @@
 {
-  "name": "unplugnation",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+    "name": "unplugnation",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "watch": "webpack --watch --progress --config webpack.config.js"
+    },
+    "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "ts-loader": "^9.4.4",
+        "typescript": "^5.1.6"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.14",
+        "copy-webpack-plugin": "^11.0.0",
+        "html-webpack-plugin": "^5.5.3",
+        "postcss": "^8.4.26",
+        "tailwindcss": "^3.3.3",
+        "webpack": "^5.88.2",
+        "webpack-cli": "^5.1.4"
+    }
 }
